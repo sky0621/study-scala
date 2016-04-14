@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<book>
+      <!-- コメント -->
+      <title>Scala逆引きレシピ</title>
+      <price>3200</price>
+      <authors>
+        <!-- XMLリテラル -->
+        <author id="1">竹添</author><author id="2">島本</author>
+      </authors>
+    </book>

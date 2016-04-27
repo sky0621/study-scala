@@ -21,4 +21,25 @@ object M053toXXX_function extends App {
 
   val f6 = () => println("Hello!")
   f6()
+
+  // M054
+  def exec(f: Int => Boolean) = f(10)
+  val sf: Int => Boolean = _ > 5
+  println(exec(sf))
+
+  // M055
+  def double: Int => Int = {
+    i: Int => i * 2
+  }
+  var fd = double
+  println(fd(12))
+
+  def double2 = (i: Int) => i * 2
+  var fd2 = double2
+  println(fd2(13))
+
+  def double3: Int => Int = _ * 2
+  var fd3 = double3
+  println(fd3(14))
+
 }

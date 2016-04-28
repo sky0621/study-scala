@@ -4,6 +4,8 @@ package p2nd.chap02
   *  2016/01/13.
   */
 object M019_implicit_def extends App {
+
+  // 暗黙の型変換（Int -> Stringに代入する際に自動で適用される）
   implicit def toStr(num: Int): String = {
     if(num <= 10) "10アンダー"
     else "10オーバー"

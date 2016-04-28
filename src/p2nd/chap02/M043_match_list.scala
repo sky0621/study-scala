@@ -3,7 +3,7 @@ package p2nd.chap02
 /**
   *  2016/01/20.
   */
-object                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M043_match_list extends App {
+object M043_match_list extends App {
   val l: List[Int] = List(3, 5, 7, 93, 7)
 
   val res: String = l match {

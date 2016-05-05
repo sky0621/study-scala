@@ -4,6 +4,8 @@ package p2nd.chap04
   *  2016/02/01.
   */
 object M066_var_args extends App {
+
+  // 可変長引数・・・型の後ろに「*」を付加
   def varargs(args: String*) = for(s <- args) println(s)
 
   varargs()
